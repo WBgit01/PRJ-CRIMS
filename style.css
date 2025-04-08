@@ -4,6 +4,7 @@ body {
   .hero-section {
     background-color: #1d3557; /* Deep blue */
     color: white;
+    height: auto;
   }
   .card {
     background-color: #ffffff;
@@ -14,3 +15,31 @@ body {
   footer {
     background-color: #343a40;
   }
+
+
+  .login-card {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  .logo {
+    max-width: 60px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+
+.signup-card {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
