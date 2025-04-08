@@ -1,0 +1,16 @@
+body {
+    background-color: #f4f4f4; /* Light gray background */
+  }
+  .hero-section {
+    background-color: #1d3557; /* Deep blue */
+    color: white;
+  }
+  .card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  }
+  footer {
+    background-color: #343a40;
+  }
