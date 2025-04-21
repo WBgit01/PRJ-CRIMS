@@ -4,22 +4,22 @@
     include_once 'layout_nav.php';
 ?>
 
-<section class="hero-section text-center py-5">
-  <div class="container py-4">
-    <!-- Logo -->
-    <img src="https://www.pngmart.com/files/9/Police-Badge-PNG-Picture.png" 
-         alt="CRIMS Logo" 
-         class="mb-4" 
-         style="max-width: 200px; height: auto;">
-
-    <h1 class="display-4">Crime Reporting Information Management System</h1>
-    <p class="lead">A simple, secure, and accessible way to report and track local crimes.</p>
-    <a href="#" class="btn btn-primary btn-lg">Get Started</a>
-  </div>
-</section>
-
+<section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <h1>Crime Reporting and Investigation Monitoring System</h1>
+          <button class="btn btn-primary mt-3">Get Started</button>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="Libs/Images/logo_crims.png" alt="Hero Logo" class="img-fluid" style="max-width: 600px;">
+        </div>
+      </div>
+    </div>
+  </section>
 
 <?php
-    include_once 'layout_card.php';
+    include_once 'layout_news.php';
+    include_once 'layout_programs.php';
     include_once 'layout_foot.php';
 ?>

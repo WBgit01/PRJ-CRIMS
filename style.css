@@ -1,45 +1,73 @@
-body {
-    background-color: #f4f4f4; /* Light gray background */
-  }
-  .hero-section {
-    background-color: #1d3557; /* Deep blue */
-    color: white;
-    height: auto;
-  }
-  .card {
-    background-color: #ffffff;
-    border-radius: 12px;
-    border: none;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
-  }
-  footer {
-    background-color: #343a40;
-  }
+.hero-section {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+}
+.hero-section .btn-primary {
+  background-color: #0047AB;
+  border: none;
+}
+.section-header {
+  background-color: #0047AB;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.content-section {
+  padding: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+.main-card, .small-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.main-card {
+  height: 400px;
+}
+.small-card {
+  height: 192px;
+  margin-bottom: 1rem;
+}
+footer {
+  background-color: #f1f1f1;
+  padding: 2rem;
+  text-align: center;
+}
+.footer-links a {
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+}
 
 
-  .login-card {
-    max-width: 400px;
-    margin: 80px auto;
-    padding: 30px;
-    border-radius: 16px;
-    background: white;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  }
-  .logo {
-    max-width: 60px;
-    margin-bottom: 20px;
-  }
-
-
-
-
-
-
-.signup-card {
-  max-width: 450px;
-  margin: 60px auto;
+.login-container {
+  min-height: 90vh;
+}
+.login-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   padding: 30px;
-  border-radius: 16px;
-  background: white;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+.btn-login {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  width: 350px;
+  border-radius: 6px;
+}
+.form-label {
+  font-weight: 500;
+}
+.forgot {
+  font-size: 0.9rem;
+  text-align: right;
+  display: block;
+}
+.signup-link {
+  font-size: 0.9rem;
+}
+.illus-img {
+  max-width: 100%;
+  height: auto;
 }
